@@ -58,12 +58,12 @@ This repository contains unit tests for an ATM Machine simulation program writte
 
 1. **Using IntelliJ IDEA:**
     - Open the project.
-    - Navigate to `com.atm.ATM`.
+    - Navigate to `src/main/java/ATM.java`.
     - Right-click `ATM.java` and select `Run 'ATM.main()'`.
 
 2. **Using Eclipse:**
     - Open the project.
-    - Navigate to `src/main/java/com/atm/ATM.java`.
+    - Navigate to `src/main/java/ATM.java`.
     - Right-click `ATM.java` and select `Run As` > `Java Application`.
 
 
@@ -96,9 +96,10 @@ You can run individual test classes, especially the assertion case classes:
 - `OptionMenuTest`: Tests for user interactions and menu options.
 - `TestSuite`: A test suite that aggregates all the test classes for comprehensive testing.
 
-### UML Diagrams
+## UML Diagram and Project Structure
 
 <img src="https://github.com/sancakerkan/ATM-Machine-UnitTesting/blob/main/.idea/ProjectUML.png" alt="UML Diagram" width="500"/>
+<img src="https://github.com/sancakerkan/ATM-Machine-UnitTesting/blob/main/.idea/Project%20Structure.png" alt="Project Structure" width="300"/>
 
 ## Contributing
 
@@ -119,7 +120,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Special thanks to the respective owners for providing the original ATM Machine code.
 - Thanks to the contributors and the community for their support and feedback.
 
-### MIT License for Original ATM Machine Project
-
-The original ATM Machine project is licensed under the MIT License:
 
