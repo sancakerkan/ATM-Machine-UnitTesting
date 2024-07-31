@@ -29,6 +29,11 @@ This repository contains unit tests for an ATM Machine simulation program writte
 - **Option Menu:** Handle user inputs and perform account operations.
 - **Unit Testing:** Comprehensive tests for the main classes using JUnit.
 
+## UML Diagram and Project Structure
+
+<img src="https://github.com/sancakerkan/ATM-Machine-UnitTesting/blob/main/.idea/ProjectUML.png" alt="UML Diagram" width="500"/>
+<img src="https://github.com/sancakerkan/ATM-Machine-UnitTesting/blob/main/.idea/Project%20Structure.png" alt="Project Structure" width="300"/>
+
 ## Installation
 
 ### Prerequisites
@@ -95,11 +100,6 @@ You can run individual test classes, especially the assertion case classes:
 - `AccountTest`: Tests for account operations such as deposits, withdrawals, and transfers.
 - `OptionMenuTest`: Tests for user interactions and menu options.
 - `TestSuite`: A test suite that aggregates all the test classes for comprehensive testing.
-
-## UML Diagram and Project Structure
-
-<img src="https://github.com/sancakerkan/ATM-Machine-UnitTesting/blob/main/.idea/ProjectUML.png" alt="UML Diagram" width="500"/>
-<img src="https://github.com/sancakerkan/ATM-Machine-UnitTesting/blob/main/.idea/Project%20Structure.png" alt="Project Structure" width="300"/>
 
 ## Contributing
 
