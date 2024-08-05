@@ -20,7 +20,7 @@
 
 ## Introduction
 
-This repository contains unit tests for an ATM Machine simulation program written in Java. The main goal of this project is to practice writing assertion cases and creating test suites. The ATM code is sourced from an existing project, while the unit tests and assertions have been written specifically for this repository.
+This repository contains unit tests for an ATM Machine simulation program written in Java. The main goal of this project is to practice writing assertion cases and creating test suites. The ATM code is sourced from an [existing project](https://github.com/rajyash1904/ATM-Machine), while the unit tests and assertions have been written specifically for this repository.
 
 ## Features
 
@@ -116,8 +116,6 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgements
-- The source code for the ATM Machine project is available under the MIT License from [ATM Machine Project](https://github.com/rajyash1904/ATM-Machine).
+- **The source code for the ATM Machine project is available under the MIT License from [ATM Machine Project](https://github.com/rajyash1904/ATM-Machine).**
 - Special thanks to the respective owners for providing the original ATM Machine code.
-- Thanks to the contributors and the community for their support and feedback.
-
 
