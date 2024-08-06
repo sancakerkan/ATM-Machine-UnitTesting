@@ -3,7 +3,6 @@
 ![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Issues](https://img.shields.io/github/issues/sancakerkan/ATM-Machine-UnitTesting)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
