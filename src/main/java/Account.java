@@ -232,4 +232,51 @@ public class Account {
 			}
 		}
 	}
+	//-------------------------------------------
+	// Modified method to simulate user inputs
+	//-------------------------------------------
+	public void getTransferInput(String accType, int choice, double amount) {
+		boolean end = false;
+		while (!end) {
+			try {
+				if (accType.equals("Checkings")) {
+					if (choice == 1) {
+						if ((savingBalance + amount) >= 0 && (checkingBalance - amount) >= 0 && amount >= 0) {
+							calcCheckTransfer(amount);
+							end = true;
+						} else {
+							System.out.println("\nBalance Cannot Be Negative.");
+							end = true; // End loop as no transfer will occur
+						}
+					} else if (choice == 2) {
+						return;
+					} else {
+						System.out.println("\nInvalid Choice.");
+						end = true; // End loop as no transfer will occur
+					}
+				} else if (accType.equals("Savings")) {
+					if (choice == 1) {
+						if ((checkingBalance + amount) >= 0 && (savingBalance - amount) >= 0 && amount >= 0) {
+							calcSavingTransfer(amount);
+							end = true;
+						} else {
+							System.out.println("\nBalance Cannot Be Negative.");
+							end = true; // End loop as no transfer will occur
+						}
+					} else if (choice == 2) {
+						return;
+					} else {
+						System.out.println("\nInvalid Choice.");
+						end = true; // End loop as no transfer will occur
+					}
+				}
+			} catch (InputMismatchException e) {
+				System.out.println("\nInvalid Choice.");
+				end = true; // End loop as no transfer will occur
+			}
+		}
+	}
+	//-------------------------------------------
+	//-------------------------------------------
 }
+
